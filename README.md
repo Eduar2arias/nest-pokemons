@@ -51,3 +51,22 @@ $ npm run start:prod
 ```
 docker compose up -d
 ```
+
+## reconstruir la db 
+
+```
+  http://localhost:3000/api/v2/seed
+```
+
+## variable de entorno
+
+crear el archivo .env , teniendo como modelo el __.env.template___
+```
+remplazar los datos , llenar las variables de entorno
+```
+
+## ejecutar la aplicacion en dev
+
+```
+npm run start:dev
+```

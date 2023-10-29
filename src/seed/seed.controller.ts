@@ -9,4 +9,10 @@ export class SeedController {
  executeSEED(){
   return this.seedService.excecuteSEED()
  }
+@Get('/adapter')
+ executeSEEDAdapter(){
+  console.log('exceuted adapter');
+  
+  return this.seedService.excecutedSEEDAdapter()
+ }
 }
